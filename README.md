@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação da metaheurística **Adaptive Large Neighborhood Search (ALNS)** aplicada ao **Problema de Roteamento de Veículos Capacitado (CVRP)**.
 
-O projeto foi desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)**, com foco em uma implementação fiel do **ALNS “puro”** (sem busca local externa), utilizando **Simulated Annealing** como critério de aceitação e uma **validação estatística rigorosa** baseada em amostragem de população infinita.
+O projeto foi desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)**, com foco em uma implementação do **ALNS**, utilizando **Simulated Annealing** como critério de aceitação.
 
 ---
 
@@ -10,16 +10,16 @@ O projeto foi desenvolvido como parte de um **Trabalho de Conclusão de Curso (T
 
 O **CVRP** é um problema clássico de otimização combinatória no qual uma frota de veículos deve atender um conjunto de clientes com demandas conhecidas, minimizando o custo total das rotas e respeitando a capacidade dos veículos.
 
-Esta implementação utiliza o algoritmo **ALNS**, que destrói e repara iterativamente a solução para explorar o espaço de busca, adaptando dinamicamente os pesos dos operadores conforme o seu desempenho histórico (mecanismo de **“Roleta Viciada”**).
+Esta implementação utiliza o algoritmo **ALNS**, que destrói e repara iterativamente a solução para explorar o espaço de busca, adaptando dinamicamente os pesos dos operadores conforme o seu desempenho histórico.
 
 ---
 
 ## ✨ Características Principais
 
-- **Linguagem:** C++17 (foco em performance e precisão)
+- **Linguagem:** C++17 (foco em performance)
 - **Padrão de Distância:** Distâncias Euclidianas arredondadas para inteiros (padrão TSPLIB / acadêmico)
 - **Metaheurística:** ALNS guiado por Simulated Annealing
-- **Ferramentas Auxiliares:** Scripts em Python para visualização gráfica das rotas e validação estatística automatizada
+- **Ferramentas Auxiliares:** Scripts em Python para visualização gráfica das rotas e validação estatística 
 
 ---
 
@@ -132,7 +132,7 @@ Valores padrão:
 
 ## 📝 Autores
 
-- **[Seu Nome]** – Pesquisa e Desenvolvimento
+- **Paulo Silvério Martins da Silva || Mauro Henrique Mulati || Weber Cláudio Francisco Nunes da Silva** – Pesquisa e Desenvolvimento
 
 ---
 
